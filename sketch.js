@@ -56,7 +56,7 @@ function setup() {
 }
 
 function draw() {
-  background(219, 125, 121);
+  background(119, 125, 121);
   if (label == "Class 2") {
     const indexPincelada = parseInt(random(5, 6));
     const pincelada = pinceladas[indexPincelada];
