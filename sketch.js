@@ -44,7 +44,7 @@ function setup() {
   userStartAudio();
   amplitud = new p5.Amplitude();
   gestorAmp = new GestorSenial(amplitudMinima, amplitudMaxima);
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth/2, windowHeight);
   capaColumnas = createGraphics(windowWidth, windowHeight);
   capaPinceladas = createGraphics(windowWidth, windowHeight);
 
