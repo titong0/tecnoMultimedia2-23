@@ -8,6 +8,7 @@ class Columnas {
   }
 
   mostrar() {
+    this.capa.noStroke();
     this.capa.fill(186, 194, 171 );
     this.capa.rect(this.x1, this.y1, this.ancho, this.alto);
   }
